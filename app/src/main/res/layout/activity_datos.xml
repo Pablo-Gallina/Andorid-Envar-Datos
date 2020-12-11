@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".datos">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:textColor="@color/titulo"
+        android:text="@string/tituloDatos"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvDatoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nombre:"
+        android:textSize="25dp"
+        android:layout_below="@+id/titulo"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fecha:"
+        android:textSize="25dp"
+        android:layout_below="@+id/tvDatoNombre"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telefono:"
+        android:textSize="25dp"
+        android:layout_below="@+id/tvDatoFecha"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email:"
+        android:textSize="25dp"
+        android:layout_below="@+id/tvDatoTelefono"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDatoDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="descripcion:"
+        android:textSize="25dp"
+        android:layout_below="@+id/tvDatoEmail"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnEditarDato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/tvDatoDescripcion"/>
+
+</RelativeLayout>

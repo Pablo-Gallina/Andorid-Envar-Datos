@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Enviar Datos</string>
+    <string name="tituloPricipal">Ingrese los siguientes datos: </string>
+    <string name="nombre">Ingrese nombre completo</string>
+    <string name="fecha">Seleccione fecha de Nacimiento</string>
+    <string name="telfono">Ingrese telefono</string>
+    <string name="email">Ingrese email</string>
+    <string name="descripcion">Ingrese descripcion del contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="tituloDatos">Datos</string>
+    <string name="edit">Editar Datos</string>
+</resources>
